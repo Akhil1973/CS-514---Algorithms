@@ -1,0 +1,34 @@
+1. Given an RNA sequence, such as ACAGU, we can predict its secondary structure 
+   by tagging each nucleotide as (, ., or ). Each matching pair of () must be 
+   AU, GC, or GU (or their mirror symmetries: UA, CG, UG). 
+   We also assume pairs can _not_ cross each other. 
+   The following are valid structures for ACAGU:
+A.  
+    time complexity O(n^3)
+    space complexity O(n^2)
+
+2.Total number of all possible structures
+A.
+    time complexity O(n^3)
+    space complexity O(n^2)
+
+k-best structures: output the 1-best, 2nd-best, ... kth-best structures.
+A.
+    time complexity O(n^3 +nklogk)
+    space complexity O(n^3)
+
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+    Akhil Sai Chintala
+1. Approximately how many hours did you spend on this assignment?
+    2 days.
+2. Would you rate it as easy, moderate, or difficult?
+    Difficult.
+3. Did you work on it mostly alone, or mostly with other people?
+    Mostly alone.
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+    80%
+5. Any other comments?
+    None.
